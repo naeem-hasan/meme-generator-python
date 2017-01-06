@@ -17,6 +17,7 @@ try:
     from wand.color import Color
 except:
     print "Error importing Wand! Try installing it with 'pip install wand'"
+    sys.exit()
 
 MEME_FOLDER = "memes"
 MARGINS = [50, 130, 200, 270, 340]
