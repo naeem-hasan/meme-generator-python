@@ -39,7 +39,7 @@ def generate_meme(upper_text, lower_text, picture_name):
 
     text_draw = Drawing()
 
-    text_draw.font = "impact.ttf"
+    text_draw.font = join(getcwd(), "impact.ttf")
     text_draw.font_size = 70
     text_draw.text_alignment = "center"
     text_draw.stroke_color = Color("black")
