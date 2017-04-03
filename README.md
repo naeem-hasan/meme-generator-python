@@ -1,11 +1,11 @@
 # meme-generator-python
 A simple Python script that generates meme.
 
-###Requirements:
+### Requirements:
 * Python 2.
 * [Wand](http://docs.wand-py.org/en/0.4.4/). Wand is a Python binding of [ImageMagick](http://www.imagemagick.org/). I somehow find it more convenient than Pillow. You can install Wand with pip using the following command - ```pip install wand```.
 
-###Some usage examples:
+### Some usage examples:
 * ```python memegen.py "Here's to all the memes" "That make us smile" photo.jpg```
 * ```python memegen.py "" "One doesn't simply make a meme without a script." photo.png```
 * ```python memegen.py "This is why I love this guy" "" photo.jpg```
